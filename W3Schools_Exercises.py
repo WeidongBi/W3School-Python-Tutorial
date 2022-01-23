@@ -300,12 +300,3 @@ print(y) # returns 9
 import math
 x = math.pi * pow(4, 2) # Circle area with a radius of 4
 print(x)
-
-# Reference from:
-import json
-# some JSON: https://www.w3schools.com/python/python_json.asp
-x =  '{ "name":"John", "age":30, "city":"New York"}'
-# parse x:
-y = json.loads(x)
-# the result is a Python dictionary:
-print(y["age"])
